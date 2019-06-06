@@ -1,0 +1,165 @@
+2018-01-17 09:02:52,423 +0530 [main] INFO  (Version.java:15) - Hibernate Annotations 3.3.0.GA
+2018-01-17 09:02:52,435 +0530 [main] INFO  (Environment.java:514) - Hibernate 3.2.5
+2018-01-17 09:02:52,438 +0530 [main] INFO  (Environment.java:547) - hibernate.properties not found
+2018-01-17 09:02:52,439 +0530 [main] INFO  (Environment.java:681) - Bytecode provider name : cglib
+2018-01-17 09:02:52,442 +0530 [main] INFO  (Environment.java:598) - using JDK 1.4 java.sql.Timestamp handling
+2018-01-17 09:02:52,490 +0530 [main] INFO  (Configuration.java:1426) - configuring from resource: /hibernate.cfg.xml
+2018-01-17 09:02:52,490 +0530 [main] INFO  (Configuration.java:1403) - Configuration resource: /hibernate.cfg.xml
+2018-01-17 09:02:52,646 +0530 [main] INFO  (Configuration.java:1541) - Configured SessionFactory: null
+2018-01-17 09:02:52,694 +0530 [main] INFO  (AnnotationBinder.java:398) - Binding entity from annotated class: com.jlcindia.hibernate.Customer
+2018-01-17 09:02:52,725 +0530 [main] INFO  (EntityBinder.java:420) - Bind entity com.jlcindia.hibernate.Customer on table customers
+2018-01-17 09:02:52,791 +0530 [main] INFO  (AnnotationBinder.java:398) - Binding entity from annotated class: com.jlcindia.hibernate.Request
+2018-01-17 09:02:52,791 +0530 [main] INFO  (EntityBinder.java:420) - Bind entity com.jlcindia.hibernate.Request on table requests
+2018-01-17 09:02:52,838 +0530 [main] INFO  (CollectionBinder.java:627) - Mapping collection: com.jlcindia.hibernate.Customer.requests -> requests
+2018-01-17 09:02:52,843 +0530 [main] INFO  (Version.java:17) - Hibernate Validator 3.0.0.GA
+2018-01-17 09:02:52,860 +0530 [main] INFO  (DriverManagerConnectionProvider.java:41) - Using Hibernate built-in connection pool (not for production use!)
+2018-01-17 09:02:52,860 +0530 [main] INFO  (DriverManagerConnectionProvider.java:42) - Hibernate connection pool size: 20
+2018-01-17 09:02:52,861 +0530 [main] INFO  (DriverManagerConnectionProvider.java:45) - autocommit mode: false
+2018-01-17 09:02:52,866 +0530 [main] INFO  (DriverManagerConnectionProvider.java:80) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/jlcdb
+2018-01-17 09:02:52,866 +0530 [main] INFO  (DriverManagerConnectionProvider.java:86) - connection properties: {user=root, password=****}
+2018-01-17 09:02:52,980 +0530 [main] INFO  (SettingsFactory.java:89) - RDBMS: MySQL, version: 5.5.1-m2-community
+2018-01-17 09:02:52,980 +0530 [main] INFO  (SettingsFactory.java:90) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-3.0.14-production ( $Date: 2004/04/24 15:49:43 $, $Revision: 1.27.2.39 $ )
+2018-01-17 09:02:53,013 +0530 [main] INFO  (Dialect.java:152) - Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-17 09:02:53,016 +0530 [main] INFO  (TransactionFactoryFactory.java:31) - Using default transaction strategy (direct JDBC transactions)
+2018-01-17 09:02:53,018 +0530 [main] INFO  (TransactionManagerLookupFactory.java:33) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018-01-17 09:02:53,018 +0530 [main] INFO  (SettingsFactory.java:143) - Automatic flush during beforeCompletion(): disabled
+2018-01-17 09:02:53,018 +0530 [main] INFO  (SettingsFactory.java:147) - Automatic session close at end of transaction: disabled
+2018-01-17 09:02:53,018 +0530 [main] INFO  (SettingsFactory.java:154) - JDBC batch size: 15
+2018-01-17 09:02:53,019 +0530 [main] INFO  (SettingsFactory.java:157) - JDBC batch updates for versioned data: disabled
+2018-01-17 09:02:53,019 +0530 [main] INFO  (SettingsFactory.java:162) - Scrollable result sets: enabled
+2018-01-17 09:02:53,019 +0530 [main] INFO  (SettingsFactory.java:170) - JDBC3 getGeneratedKeys(): enabled
+2018-01-17 09:02:53,019 +0530 [main] INFO  (SettingsFactory.java:178) - Connection release mode: auto
+2018-01-17 09:02:53,020 +0530 [main] INFO  (SettingsFactory.java:202) - Maximum outer join fetch depth: 2
+2018-01-17 09:02:53,020 +0530 [main] INFO  (SettingsFactory.java:205) - Default batch fetch size: 1
+2018-01-17 09:02:53,021 +0530 [main] INFO  (SettingsFactory.java:209) - Generate SQL with comments: disabled
+2018-01-17 09:02:53,021 +0530 [main] INFO  (SettingsFactory.java:213) - Order SQL updates by primary key: disabled
+2018-01-17 09:02:53,021 +0530 [main] INFO  (SettingsFactory.java:217) - Order SQL inserts for batching: disabled
+2018-01-17 09:02:53,021 +0530 [main] INFO  (SettingsFactory.java:386) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018-01-17 09:02:53,028 +0530 [main] INFO  (ASTQueryTranslatorFactory.java:24) - Using ASTQueryTranslatorFactory
+2018-01-17 09:02:53,028 +0530 [main] INFO  (SettingsFactory.java:225) - Query language substitutions: {}
+2018-01-17 09:02:53,029 +0530 [main] INFO  (SettingsFactory.java:230) - JPA-QL strict compliance: disabled
+2018-01-17 09:02:53,029 +0530 [main] INFO  (SettingsFactory.java:235) - Second-level cache: enabled
+2018-01-17 09:02:53,029 +0530 [main] INFO  (SettingsFactory.java:239) - Query cache: disabled
+2018-01-17 09:02:53,029 +0530 [main] INFO  (SettingsFactory.java:373) - Cache provider: org.hibernate.cache.NoCacheProvider
+2018-01-17 09:02:53,029 +0530 [main] INFO  (SettingsFactory.java:254) - Optimize cache for minimal puts: disabled
+2018-01-17 09:02:53,030 +0530 [main] INFO  (SettingsFactory.java:263) - Structured second-level cache entries: disabled
+2018-01-17 09:02:53,033 +0530 [main] INFO  (SettingsFactory.java:283) - Echoing all SQL to stdout
+2018-01-17 09:02:53,033 +0530 [main] INFO  (SettingsFactory.java:290) - Statistics: disabled
+2018-01-17 09:02:53,033 +0530 [main] INFO  (SettingsFactory.java:294) - Deleted entity synthetic identifier rollback: disabled
+2018-01-17 09:02:53,034 +0530 [main] INFO  (SettingsFactory.java:309) - Default entity-mode: pojo
+2018-01-17 09:02:53,034 +0530 [main] INFO  (SettingsFactory.java:313) - Named query checking : enabled
+2018-01-17 09:02:53,063 +0530 [main] INFO  (SessionFactoryImpl.java:161) - building session factory
+2018-01-17 09:02:53,322 +0530 [main] INFO  (SessionFactoryObjectFactory.java:82) - Not binding factory to JNDI, no JNDI name configured
+2018-01-17 09:02:53,331 +0530 [main] INFO  (SchemaExport.java:154) - Running hbm2ddl schema export
+2018-01-17 09:02:53,332 +0530 [main] INFO  (SchemaExport.java:179) - exporting generated schema to database
+2018-01-17 09:02:53,874 +0530 [main] INFO  (SchemaExport.java:196) - schema export complete
+2018-01-17 09:06:54,984 +0530 [main] INFO  (Version.java:15) - Hibernate Annotations 3.3.0.GA
+2018-01-17 09:06:54,996 +0530 [main] INFO  (Environment.java:514) - Hibernate 3.2.5
+2018-01-17 09:06:54,999 +0530 [main] INFO  (Environment.java:547) - hibernate.properties not found
+2018-01-17 09:06:55,000 +0530 [main] INFO  (Environment.java:681) - Bytecode provider name : cglib
+2018-01-17 09:06:55,003 +0530 [main] INFO  (Environment.java:598) - using JDK 1.4 java.sql.Timestamp handling
+2018-01-17 09:06:55,048 +0530 [main] INFO  (Configuration.java:1426) - configuring from resource: /hibernate.cfg.xml
+2018-01-17 09:06:55,048 +0530 [main] INFO  (Configuration.java:1403) - Configuration resource: /hibernate.cfg.xml
+2018-01-17 09:06:55,115 +0530 [main] INFO  (Configuration.java:1541) - Configured SessionFactory: null
+2018-01-17 09:06:55,190 +0530 [main] INFO  (AnnotationBinder.java:398) - Binding entity from annotated class: com.jlcindia.hibernate.Customer
+2018-01-17 09:06:55,222 +0530 [main] INFO  (EntityBinder.java:420) - Bind entity com.jlcindia.hibernate.Customer on table customers
+2018-01-17 09:06:55,291 +0530 [main] INFO  (AnnotationBinder.java:398) - Binding entity from annotated class: com.jlcindia.hibernate.Request
+2018-01-17 09:06:55,291 +0530 [main] INFO  (EntityBinder.java:420) - Bind entity com.jlcindia.hibernate.Request on table requests
+2018-01-17 09:06:55,338 +0530 [main] INFO  (CollectionBinder.java:627) - Mapping collection: com.jlcindia.hibernate.Customer.requests -> requests
+2018-01-17 09:06:55,343 +0530 [main] INFO  (Version.java:17) - Hibernate Validator 3.0.0.GA
+2018-01-17 09:06:55,359 +0530 [main] INFO  (DriverManagerConnectionProvider.java:41) - Using Hibernate built-in connection pool (not for production use!)
+2018-01-17 09:06:55,360 +0530 [main] INFO  (DriverManagerConnectionProvider.java:42) - Hibernate connection pool size: 20
+2018-01-17 09:06:55,360 +0530 [main] INFO  (DriverManagerConnectionProvider.java:45) - autocommit mode: false
+2018-01-17 09:06:55,365 +0530 [main] INFO  (DriverManagerConnectionProvider.java:80) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/jlcdb
+2018-01-17 09:06:55,365 +0530 [main] INFO  (DriverManagerConnectionProvider.java:86) - connection properties: {user=root, password=****}
+2018-01-17 09:06:55,480 +0530 [main] INFO  (SettingsFactory.java:89) - RDBMS: MySQL, version: 5.5.1-m2-community
+2018-01-17 09:06:55,480 +0530 [main] INFO  (SettingsFactory.java:90) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-3.0.14-production ( $Date: 2004/04/24 15:49:43 $, $Revision: 1.27.2.39 $ )
+2018-01-17 09:06:55,491 +0530 [main] INFO  (Dialect.java:152) - Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-17 09:06:55,495 +0530 [main] INFO  (TransactionFactoryFactory.java:31) - Using default transaction strategy (direct JDBC transactions)
+2018-01-17 09:06:55,496 +0530 [main] INFO  (TransactionManagerLookupFactory.java:33) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018-01-17 09:06:55,496 +0530 [main] INFO  (SettingsFactory.java:143) - Automatic flush during beforeCompletion(): disabled
+2018-01-17 09:06:55,496 +0530 [main] INFO  (SettingsFactory.java:147) - Automatic session close at end of transaction: disabled
+2018-01-17 09:06:55,497 +0530 [main] INFO  (SettingsFactory.java:154) - JDBC batch size: 15
+2018-01-17 09:06:55,497 +0530 [main] INFO  (SettingsFactory.java:157) - JDBC batch updates for versioned data: disabled
+2018-01-17 09:06:55,497 +0530 [main] INFO  (SettingsFactory.java:162) - Scrollable result sets: enabled
+2018-01-17 09:06:55,497 +0530 [main] INFO  (SettingsFactory.java:170) - JDBC3 getGeneratedKeys(): enabled
+2018-01-17 09:06:55,498 +0530 [main] INFO  (SettingsFactory.java:178) - Connection release mode: auto
+2018-01-17 09:06:55,498 +0530 [main] INFO  (SettingsFactory.java:202) - Maximum outer join fetch depth: 2
+2018-01-17 09:06:55,499 +0530 [main] INFO  (SettingsFactory.java:205) - Default batch fetch size: 1
+2018-01-17 09:06:55,499 +0530 [main] INFO  (SettingsFactory.java:209) - Generate SQL with comments: disabled
+2018-01-17 09:06:55,499 +0530 [main] INFO  (SettingsFactory.java:213) - Order SQL updates by primary key: disabled
+2018-01-17 09:06:55,499 +0530 [main] INFO  (SettingsFactory.java:217) - Order SQL inserts for batching: disabled
+2018-01-17 09:06:55,499 +0530 [main] INFO  (SettingsFactory.java:386) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018-01-17 09:06:55,501 +0530 [main] INFO  (ASTQueryTranslatorFactory.java:24) - Using ASTQueryTranslatorFactory
+2018-01-17 09:06:55,501 +0530 [main] INFO  (SettingsFactory.java:225) - Query language substitutions: {}
+2018-01-17 09:06:55,501 +0530 [main] INFO  (SettingsFactory.java:230) - JPA-QL strict compliance: disabled
+2018-01-17 09:06:55,502 +0530 [main] INFO  (SettingsFactory.java:235) - Second-level cache: enabled
+2018-01-17 09:06:55,502 +0530 [main] INFO  (SettingsFactory.java:239) - Query cache: disabled
+2018-01-17 09:06:55,502 +0530 [main] INFO  (SettingsFactory.java:373) - Cache provider: org.hibernate.cache.NoCacheProvider
+2018-01-17 09:06:55,502 +0530 [main] INFO  (SettingsFactory.java:254) - Optimize cache for minimal puts: disabled
+2018-01-17 09:06:55,502 +0530 [main] INFO  (SettingsFactory.java:263) - Structured second-level cache entries: disabled
+2018-01-17 09:06:55,505 +0530 [main] INFO  (SettingsFactory.java:283) - Echoing all SQL to stdout
+2018-01-17 09:06:55,506 +0530 [main] INFO  (SettingsFactory.java:290) - Statistics: disabled
+2018-01-17 09:06:55,506 +0530 [main] INFO  (SettingsFactory.java:294) - Deleted entity synthetic identifier rollback: disabled
+2018-01-17 09:06:55,506 +0530 [main] INFO  (SettingsFactory.java:309) - Default entity-mode: pojo
+2018-01-17 09:06:55,507 +0530 [main] INFO  (SettingsFactory.java:313) - Named query checking : enabled
+2018-01-17 09:06:55,537 +0530 [main] INFO  (SessionFactoryImpl.java:161) - building session factory
+2018-01-17 09:06:55,725 +0530 [main] INFO  (SessionFactoryObjectFactory.java:82) - Not binding factory to JNDI, no JNDI name configured
+2018-01-17 09:06:55,731 +0530 [main] INFO  (SchemaExport.java:154) - Running hbm2ddl schema export
+2018-01-17 09:06:55,732 +0530 [main] INFO  (SchemaExport.java:179) - exporting generated schema to database
+2018-01-17 09:06:56,403 +0530 [main] INFO  (SchemaExport.java:196) - schema export complete
+2018-01-17 09:07:44,205 +0530 [main] INFO  (Version.java:15) - Hibernate Annotations 3.3.0.GA
+2018-01-17 09:07:44,217 +0530 [main] INFO  (Environment.java:514) - Hibernate 3.2.5
+2018-01-17 09:07:44,220 +0530 [main] INFO  (Environment.java:547) - hibernate.properties not found
+2018-01-17 09:07:44,221 +0530 [main] INFO  (Environment.java:681) - Bytecode provider name : cglib
+2018-01-17 09:07:44,224 +0530 [main] INFO  (Environment.java:598) - using JDK 1.4 java.sql.Timestamp handling
+2018-01-17 09:07:44,270 +0530 [main] INFO  (Configuration.java:1426) - configuring from resource: /hibernate.cfg.xml
+2018-01-17 09:07:44,271 +0530 [main] INFO  (Configuration.java:1403) - Configuration resource: /hibernate.cfg.xml
+2018-01-17 09:07:44,336 +0530 [main] INFO  (Configuration.java:1541) - Configured SessionFactory: null
+2018-01-17 09:07:44,380 +0530 [main] INFO  (AnnotationBinder.java:398) - Binding entity from annotated class: com.jlcindia.hibernate.Customer
+2018-01-17 09:07:44,410 +0530 [main] INFO  (EntityBinder.java:420) - Bind entity com.jlcindia.hibernate.Customer on table customers
+2018-01-17 09:07:44,476 +0530 [main] INFO  (AnnotationBinder.java:398) - Binding entity from annotated class: com.jlcindia.hibernate.Request
+2018-01-17 09:07:44,476 +0530 [main] INFO  (EntityBinder.java:420) - Bind entity com.jlcindia.hibernate.Request on table requests
+2018-01-17 09:07:44,528 +0530 [main] INFO  (CollectionBinder.java:627) - Mapping collection: com.jlcindia.hibernate.Customer.requests -> requests
+2018-01-17 09:07:44,534 +0530 [main] INFO  (Version.java:17) - Hibernate Validator 3.0.0.GA
+2018-01-17 09:07:44,551 +0530 [main] INFO  (DriverManagerConnectionProvider.java:41) - Using Hibernate built-in connection pool (not for production use!)
+2018-01-17 09:07:44,551 +0530 [main] INFO  (DriverManagerConnectionProvider.java:42) - Hibernate connection pool size: 20
+2018-01-17 09:07:44,551 +0530 [main] INFO  (DriverManagerConnectionProvider.java:45) - autocommit mode: false
+2018-01-17 09:07:44,556 +0530 [main] INFO  (DriverManagerConnectionProvider.java:80) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/jlcdb
+2018-01-17 09:07:44,557 +0530 [main] INFO  (DriverManagerConnectionProvider.java:86) - connection properties: {user=root, password=****}
+2018-01-17 09:07:44,671 +0530 [main] INFO  (SettingsFactory.java:89) - RDBMS: MySQL, version: 5.5.1-m2-community
+2018-01-17 09:07:44,672 +0530 [main] INFO  (SettingsFactory.java:90) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-3.0.14-production ( $Date: 2004/04/24 15:49:43 $, $Revision: 1.27.2.39 $ )
+2018-01-17 09:07:44,683 +0530 [main] INFO  (Dialect.java:152) - Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-17 09:07:44,686 +0530 [main] INFO  (TransactionFactoryFactory.java:31) - Using default transaction strategy (direct JDBC transactions)
+2018-01-17 09:07:44,687 +0530 [main] INFO  (TransactionManagerLookupFactory.java:33) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018-01-17 09:07:44,687 +0530 [main] INFO  (SettingsFactory.java:143) - Automatic flush during beforeCompletion(): disabled
+2018-01-17 09:07:44,688 +0530 [main] INFO  (SettingsFactory.java:147) - Automatic session close at end of transaction: disabled
+2018-01-17 09:07:44,688 +0530 [main] INFO  (SettingsFactory.java:154) - JDBC batch size: 15
+2018-01-17 09:07:44,688 +0530 [main] INFO  (SettingsFactory.java:157) - JDBC batch updates for versioned data: disabled
+2018-01-17 09:07:44,689 +0530 [main] INFO  (SettingsFactory.java:162) - Scrollable result sets: enabled
+2018-01-17 09:07:44,689 +0530 [main] INFO  (SettingsFactory.java:170) - JDBC3 getGeneratedKeys(): enabled
+2018-01-17 09:07:44,689 +0530 [main] INFO  (SettingsFactory.java:178) - Connection release mode: auto
+2018-01-17 09:07:44,690 +0530 [main] INFO  (SettingsFactory.java:202) - Maximum outer join fetch depth: 2
+2018-01-17 09:07:44,690 +0530 [main] INFO  (SettingsFactory.java:205) - Default batch fetch size: 1
+2018-01-17 09:07:44,690 +0530 [main] INFO  (SettingsFactory.java:209) - Generate SQL with comments: disabled
+2018-01-17 09:07:44,690 +0530 [main] INFO  (SettingsFactory.java:213) - Order SQL updates by primary key: disabled
+2018-01-17 09:07:44,691 +0530 [main] INFO  (SettingsFactory.java:217) - Order SQL inserts for batching: disabled
+2018-01-17 09:07:44,691 +0530 [main] INFO  (SettingsFactory.java:386) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018-01-17 09:07:44,692 +0530 [main] INFO  (ASTQueryTranslatorFactory.java:24) - Using ASTQueryTranslatorFactory
+2018-01-17 09:07:44,693 +0530 [main] INFO  (SettingsFactory.java:225) - Query language substitutions: {}
+2018-01-17 09:07:44,693 +0530 [main] INFO  (SettingsFactory.java:230) - JPA-QL strict compliance: disabled
+2018-01-17 09:07:44,693 +0530 [main] INFO  (SettingsFactory.java:235) - Second-level cache: enabled
+2018-01-17 09:07:44,693 +0530 [main] INFO  (SettingsFactory.java:239) - Query cache: disabled
+2018-01-17 09:07:44,693 +0530 [main] INFO  (SettingsFactory.java:373) - Cache provider: org.hibernate.cache.NoCacheProvider
+2018-01-17 09:07:44,693 +0530 [main] INFO  (SettingsFactory.java:254) - Optimize cache for minimal puts: disabled
+2018-01-17 09:07:44,694 +0530 [main] INFO  (SettingsFactory.java:263) - Structured second-level cache entries: disabled
+2018-01-17 09:07:44,697 +0530 [main] INFO  (SettingsFactory.java:283) - Echoing all SQL to stdout
+2018-01-17 09:07:44,697 +0530 [main] INFO  (SettingsFactory.java:290) - Statistics: disabled
+2018-01-17 09:07:44,697 +0530 [main] INFO  (SettingsFactory.java:294) - Deleted entity synthetic identifier rollback: disabled
+2018-01-17 09:07:44,698 +0530 [main] INFO  (SettingsFactory.java:309) - Default entity-mode: pojo
+2018-01-17 09:07:44,698 +0530 [main] INFO  (SettingsFactory.java:313) - Named query checking : enabled
+2018-01-17 09:07:44,728 +0530 [main] INFO  (SessionFactoryImpl.java:161) - building session factory
+2018-01-17 09:07:44,930 +0530 [main] INFO  (SessionFactoryObjectFactory.java:82) - Not binding factory to JNDI, no JNDI name configured
+2018-01-17 09:07:44,936 +0530 [main] INFO  (SchemaExport.java:154) - Running hbm2ddl schema export
+2018-01-17 09:07:44,937 +0530 [main] INFO  (SchemaExport.java:179) - exporting generated schema to database
+2018-01-17 09:07:45,519 +0530 [main] INFO  (SchemaExport.java:196) - schema export complete

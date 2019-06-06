@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.Student"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.CurrentStudent"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.OldStudent"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.WeekdayStudent"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.WeekendStudent"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.CHibernateUtil"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.Address"/>
+<fullyQualifiedTypeName name="hibernate.practice.User"/>
+<fullyQualifiedTypeName name="hibernate.practice.Profile"/>
+<fullyQualifiedTypeName name="hibernate.practice.Address"/>
+<fullyQualifiedTypeName name="hibernate.practice.CHibernateUtil"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+<fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.AHibernateUtil"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="com.jlcindia.hibernate.Customer"/>
+</qualifiedTypeNameHistroy>
